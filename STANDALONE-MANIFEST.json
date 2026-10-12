@@ -1,0 +1,252 @@
+{
+  "schema": "tjlabs.creatorpool.standalone-package-manifest.v1",
+  "package_root": "creator-pool-standalone",
+  "upstream": {
+    "commit": "afcc48eccc32859762b57236f159c1f0b4bce1a6",
+    "tree_scope": "creator-pool subtree plus applicable repository-root LICENSE only"
+  },
+  "layout_note": "The accepted source commit, included license files, and per-file source/package hashes are recorded below.",
+  "upstream_files": [
+    {
+      "path": "LICENSE",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 1091,
+      "git_blob_sha1": "2d2a35a69e3896b7c6b885c1faebae2f2f8bc9c1",
+      "sha256_upstream": "2c961cd561150af9a4f94f3f48f0bad7bf271acd0f9cdaa1d354c511b94e84d8",
+      "sha256_result": "2c961cd561150af9a4f94f3f48f0bad7bf271acd0f9cdaa1d354c511b94e84d8",
+      "byte_identical": true,
+      "result_bytes": 1091,
+      "public_git_blob_sha1": "2d2a35a69e3896b7c6b885c1faebae2f2f8bc9c1"
+    },
+    {
+      "path": "creator-pool/CREATOR-SUBMISSIONS.md",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 3575,
+      "git_blob_sha1": "1c25128d54a68bb6c7446871672b5f2847017a60",
+      "sha256_upstream": "a1685c13e823c9a7ee5ed791bfdf8025873f06bf34d724bbd3f4a58d4a712959",
+      "sha256_result": "a1685c13e823c9a7ee5ed791bfdf8025873f06bf34d724bbd3f4a58d4a712959",
+      "byte_identical": true,
+      "result_bytes": 3575,
+      "public_git_blob_sha1": "1c25128d54a68bb6c7446871672b5f2847017a60"
+    },
+    {
+      "path": "creator-pool/LICENSE",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 1093,
+      "git_blob_sha1": "73bf5a1931c5a6f2538523cea21d74781dc9cce1",
+      "sha256_upstream": "8b70f3039d0c5260dc2ef4659a61c8670b29645c3e466e2c6c7e1a0dd4e61c64",
+      "sha256_result": "8b70f3039d0c5260dc2ef4659a61c8670b29645c3e466e2c6c7e1a0dd4e61c64",
+      "byte_identical": true,
+      "result_bytes": 1093,
+      "public_git_blob_sha1": "73bf5a1931c5a6f2538523cea21d74781dc9cce1"
+    },
+    {
+      "path": "creator-pool/README.md",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 8221,
+      "git_blob_sha1": "3fe222534209ebbb04d8112850d56d57acd37a96",
+      "sha256_upstream": "9dc8358246cd8ba1f42885834837540605fc25b495740b40322446e73eb4a86f",
+      "sha256_result": "9dc8358246cd8ba1f42885834837540605fc25b495740b40322446e73eb4a86f",
+      "byte_identical": true,
+      "result_bytes": 8221,
+      "public_git_blob_sha1": "3fe222534209ebbb04d8112850d56d57acd37a96"
+    },
+    {
+      "path": "creator-pool/backend/API-CONTRACT.md",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 6330,
+      "git_blob_sha1": "26151f72e842411982c3d7806d04b4d0eae3827b",
+      "sha256_upstream": "870e7d0a679911855e267242310d3d1e5d62cff48424083243c9f05b5878b163",
+      "sha256_result": "870e7d0a679911855e267242310d3d1e5d62cff48424083243c9f05b5878b163",
+      "byte_identical": true,
+      "result_bytes": 6330,
+      "public_git_blob_sha1": "26151f72e842411982c3d7806d04b4d0eae3827b"
+    },
+    {
+      "path": "creator-pool/backend/lib/compile.mjs",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 1255,
+      "git_blob_sha1": "e121057dcf3ebc6cd47c9b3f6de2b5d92bc6a120",
+      "sha256_upstream": "ac8f944f5b6abf6f50a52f4e302950545b00fc7d00dcb135eff98e6b20dda814",
+      "sha256_result": "ac8f944f5b6abf6f50a52f4e302950545b00fc7d00dcb135eff98e6b20dda814",
+      "byte_identical": true,
+      "result_bytes": 1255,
+      "public_git_blob_sha1": "e121057dcf3ebc6cd47c9b3f6de2b5d92bc6a120"
+    },
+    {
+      "path": "creator-pool/backend/package.json",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 685,
+      "git_blob_sha1": "6b432d0813d77fd4646ded7b88fedcd5f92f3a45",
+      "sha256_upstream": "a071cc50e36714d68fffc43f138c5594302eaedfa2169364a47eb5eda724ff23",
+      "sha256_result": "a071cc50e36714d68fffc43f138c5594302eaedfa2169364a47eb5eda724ff23",
+      "byte_identical": true,
+      "result_bytes": 685,
+      "public_git_blob_sha1": "6b432d0813d77fd4646ded7b88fedcd5f92f3a45"
+    },
+    {
+      "path": "creator-pool/backend/scripts/deploy-local.mjs",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 2262,
+      "git_blob_sha1": "35d61f2307ae7a1e23dec0d9181333936edd4ef6",
+      "sha256_upstream": "7d239a4fd204c51be8ea05fb327a8a200b9305ab763197531e86f4bc5da51133",
+      "sha256_result": "7d239a4fd204c51be8ea05fb327a8a200b9305ab763197531e86f4bc5da51133",
+      "byte_identical": true,
+      "result_bytes": 2262,
+      "public_git_blob_sha1": "35d61f2307ae7a1e23dec0d9181333936edd4ef6"
+    },
+    {
+      "path": "creator-pool/backend/scripts/run-flow.mjs",
+      "status": "COMMENT_ONLY_CHANGE",
+      "bytes": 7481,
+      "git_blob_sha1": "505ffa2a7a910a7a0841204c7055ebaa3a3f92bd",
+      "sha256_upstream": "25d0f24f9819f96a68426adb3c1c9fed4eef3d875b92cf5574b8082dc85b57a5",
+      "sha256_result": "1f98fb3cae85fcd5ae2b73b0c4adf6a54e1f3d238a2517ce46cca0836e359a45",
+      "byte_identical": false,
+      "result_bytes": 7089,
+      "public_git_blob_sha1": "e5a7dbe54044a2e68737da1e1fac3d9db3445b7c"
+    },
+    {
+      "path": "creator-pool/backend/scripts/start-local.mjs",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 11687,
+      "git_blob_sha1": "91aaaa7b313799e830682f3a9a8aeb1c86efc3d8",
+      "sha256_upstream": "563d3789ce3ab2a5d7f449a99481c75131595f908f17fc910568536a030474c9",
+      "sha256_result": "563d3789ce3ab2a5d7f449a99481c75131595f908f17fc910568536a030474c9",
+      "byte_identical": true,
+      "result_bytes": 11687,
+      "public_git_blob_sha1": "91aaaa7b313799e830682f3a9a8aeb1c86efc3d8"
+    },
+    {
+      "path": "creator-pool/backend/server.mjs",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 25858,
+      "git_blob_sha1": "c2aab587792dfb66425158268b20513466ce93ca",
+      "sha256_upstream": "b393f2f6ffe25df0f2e241e714171ad1dde5f3df6b21f12604be4ccd8f6dbf1c",
+      "sha256_result": "b393f2f6ffe25df0f2e241e714171ad1dde5f3df6b21f12604be4ccd8f6dbf1c",
+      "byte_identical": true,
+      "result_bytes": 25858,
+      "public_git_blob_sha1": "c2aab587792dfb66425158268b20513466ce93ca"
+    },
+    {
+      "path": "creator-pool/contracts/CreatorPool.sol",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 8715,
+      "git_blob_sha1": "d1af553ef8493a697bf0c376bb1f7d03d0ec16d2",
+      "sha256_upstream": "2b88568f8d0a505ecf9c1a2ac754d1eb62a88dd990d4762e0e4c66a6b7b13881",
+      "sha256_result": "2b88568f8d0a505ecf9c1a2ac754d1eb62a88dd990d4762e0e4c66a6b7b13881",
+      "byte_identical": true,
+      "result_bytes": 8715,
+      "public_git_blob_sha1": "d1af553ef8493a697bf0c376bb1f7d03d0ec16d2"
+    },
+    {
+      "path": "creator-pool/contracts/DemoToken.sol",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 2084,
+      "git_blob_sha1": "c1ac37e3d1c887fb5f47c6521ae19372ac40d7c3",
+      "sha256_upstream": "cf3f3b9ace6893236dd6651195aeff14a16ecd6146c52d258defb8e7785d1bd3",
+      "sha256_result": "cf3f3b9ace6893236dd6651195aeff14a16ecd6146c52d258defb8e7785d1bd3",
+      "byte_identical": true,
+      "result_bytes": 2084,
+      "public_git_blob_sha1": "c1ac37e3d1c887fb5f47c6521ae19372ac40d7c3"
+    },
+    {
+      "path": "creator-pool/web/app.js",
+      "status": "COMMENT_ONLY_CHANGE",
+      "bytes": 145472,
+      "git_blob_sha1": "134c7d86259e8e1f1276d6ae66660f231f0005ce",
+      "sha256_upstream": "9f44fa316eac830a5e9f44fee32277324ae683fefc7d7f1d11b95a65001ddaa4",
+      "sha256_result": "be410b5950a220fe75d048d4e0aa70f76787f45c6001db41f31f20fba388d419",
+      "byte_identical": false,
+      "result_bytes": 145393,
+      "public_git_blob_sha1": "809e3052cba6061dfa9081c65566223d428d0e8c"
+    },
+    {
+      "path": "creator-pool/web/index.html",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 6637,
+      "git_blob_sha1": "f0b48e548f8ae6a453537e2c2d028642b169011b",
+      "sha256_upstream": "a255956ac9fce19c3d26415d9fd5faa20a686959e00fd104b8ffeb9cb8b2f61c",
+      "sha256_result": "a255956ac9fce19c3d26415d9fd5faa20a686959e00fd104b8ffeb9cb8b2f61c",
+      "byte_identical": true,
+      "result_bytes": 6637,
+      "public_git_blob_sha1": "f0b48e548f8ae6a453537e2c2d028642b169011b"
+    },
+    {
+      "path": "creator-pool/web/styles.css",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 28214,
+      "git_blob_sha1": "5ac7b7a3ea784c10d1fb111dd4ec095ea0f2780c",
+      "sha256_upstream": "19ffd2120c277ef35383ea56beb2240d4c070495a6710c32dfb3adf1d8a5f44f",
+      "sha256_result": "19ffd2120c277ef35383ea56beb2240d4c070495a6710c32dfb3adf1d8a5f44f",
+      "byte_identical": true,
+      "result_bytes": 28214,
+      "public_git_blob_sha1": "5ac7b7a3ea784c10d1fb111dd4ec095ea0f2780c"
+    },
+    {
+      "path": "creator-pool/web/wallet-review.css",
+      "status": "UPSTREAM_UNCHANGED",
+      "bytes": 1475,
+      "git_blob_sha1": "57e7030b16e6628b9eb27c2cdb2d45de972b7336",
+      "sha256_upstream": "056d58e1c4459892659f2b293559549d08ad9443b1e43872c6470ba22b9778da",
+      "sha256_result": "056d58e1c4459892659f2b293559549d08ad9443b1e43872c6470ba22b9778da",
+      "byte_identical": true,
+      "result_bytes": 1475,
+      "public_git_blob_sha1": "57e7030b16e6628b9eb27c2cdb2d45de972b7336"
+    }
+  ],
+  "standalone_files": [
+    {
+      "path": "README.md",
+      "status": "new-standalone",
+      "author": "TokenJunkieLabs",
+      "bytes": 3351,
+      "git_blob_sha1": "b6e525826adb35336dc79159a068dfb61e294b1a",
+      "sha256": "ec8264619f0b78e94545c32badcde8048f05f647e949afbe9516e54ccb06537e"
+    },
+    {
+      "path": "STANDALONE-MANIFEST.json",
+      "status": "new-standalone"
+    }
+  ],
+  "runtime": {
+    "node": ">=20",
+    "ethers": "6.13.4",
+    "solc": "0.8.26",
+    "ganache_dev": "7.9.2",
+    "launch": [
+      "cd creator-pool/backend",
+      "npm install",
+      "npm run demo"
+    ],
+    "address": "http://127.0.0.1:8787",
+    "chain_ids": [
+      "1337",
+      "31337"
+    ],
+    "asset": "CPDEMO local non-monetary demo token",
+    "hosted_deployment": null
+  },
+  "public_comment_only_changes": [
+    {
+      "path": "creator-pool/backend/scripts/run-flow.mjs",
+      "status": "COMMENT_ONLY_CHANGE",
+      "upstream_git_blob_sha1": "505ffa2a7a910a7a0841204c7055ebaa3a3f92bd",
+      "public_git_blob_sha1": "e5a7dbe54044a2e68737da1e1fac3d9db3445b7c",
+      "source_bytes": 7481,
+      "result_bytes": 7089,
+      "source_sha256": "25d0f24f9819f96a68426adb3c1c9fed4eef3d875b92cf5574b8082dc85b57a5",
+      "result_sha256": "1f98fb3cae85fcd5ae2b73b0c4adf6a54e1f3d238a2517ce46cca0836e359a45"
+    },
+    {
+      "path": "creator-pool/web/app.js",
+      "status": "COMMENT_ONLY_CHANGE",
+      "upstream_git_blob_sha1": "134c7d86259e8e1f1276d6ae66660f231f0005ce",
+      "public_git_blob_sha1": "809e3052cba6061dfa9081c65566223d428d0e8c",
+      "source_bytes": 145472,
+      "result_bytes": 145393,
+      "source_sha256": "9f44fa316eac830a5e9f44fee32277324ae683fefc7d7f1d11b95a65001ddaa4",
+      "result_sha256": "be410b5950a220fe75d048d4e0aa70f76787f45c6001db41f31f20fba388d419"
+    }
+  ]
+}
